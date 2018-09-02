@@ -130,6 +130,12 @@ BOARD_USES_PRODUCTIMAGE := true
 TARGET_COPY_OUT_ODM := odm
 TARGET_COPY_OUT_VENDOR := vendor
 
+BOARD_ROOT_EXTRA_SYMLINKS := \
+    /mnt/vendor/persist:/persist \
+    /vendor/bt_firmware:/bt_firmware \
+    /vendor/dsp:/dsp \
+    /vendor/firmware_mnt:/firmware
+
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
 TARGET_RECOVERY_PIXEL_FORMAT := "BGRA_8888"
