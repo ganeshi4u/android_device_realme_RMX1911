@@ -190,9 +190,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.trinket \
-    android.hardware.power@1.0-impl \
-    android.hardware.power@1.0-service
+    android.hardware.power@1.2-service.realme_trinket
 
 # Radio
 PRODUCT_PACKAGES += \
