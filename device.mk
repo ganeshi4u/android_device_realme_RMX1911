@@ -190,7 +190,9 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.qcom
+    power.trinket \
+    android.hardware.power@1.0-impl \
+    android.hardware.power@1.0-service
 
 # Radio
 PRODUCT_PACKAGES += \
