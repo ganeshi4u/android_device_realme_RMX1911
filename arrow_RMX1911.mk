@@ -41,3 +41,10 @@ PRODUCT_MANUFACTURER := Realme
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.build.security_patch=2099-12-31
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.usb.controller=4e00000.dwc3 \
+    sys.usb.rndis.func.name=rndis_bam \
+    sys.usb.rmnet.func.name=rmnet_bam \
+    persist.sys.isUsbOtgEnabled=true \
+    vendor.gatekeeper.disable_spu=true
