@@ -29,11 +29,11 @@ PRODUCT_RELEASE_NAME := RMX1911
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := RMX1911
-PRODUCT_NAME := arrow_RMX1911
+PRODUCT_NAME := omni_RMX1911
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := RMX1911
 PRODUCT_MANUFACTURER := Realme

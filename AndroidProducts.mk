@@ -24,4 +24,4 @@
 # components.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_RMX1911.mk
+    $(LOCAL_DIR)/omni_RMX1911.mk
