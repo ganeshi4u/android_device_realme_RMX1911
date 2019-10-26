@@ -38,6 +38,14 @@ PRODUCT_BRAND := Realme
 PRODUCT_MODEL := RMX1911
 PRODUCT_MANUFACTURER := Realme
 
+#ADB
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.secure=0 \
+    ro.adb.secure=0 \
+    ro.debuggable=1 \
+    persist.sys.usb.config=adb,mtp \
+    sys.usb.config=adb,mtp
+
 # HACK: Set vendor patch level
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.build.security_patch=2099-12-31
