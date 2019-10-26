@@ -192,6 +192,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.2-service.realme_trinket
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/power/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+
 # Radio
 PRODUCT_PACKAGES += \
     libjson \
