@@ -53,6 +53,10 @@ ifeq ($(TARGET_PREBUILT_KERNEL),)
   TARGET_KERNEL_CONFIG := vendor/trinket-perf_defconfig
 endif
 
+BOARD_KERNEL_SEPARATED_DTBO := true
+BOARD_DTBOIMG_PARTITION_SIZE := 8388608
+
+
 # Platform
 #TARGET_BOARD_PLATFORM := trinket
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno610
