@@ -12,6 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/realme/RMX1911/RMX1911-vendor.mk)
 
+# Vendor properties
+-include $(LOCAL_PATH)/vendor_prop.mk
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1600
 TARGET_SCREEN_WIDTH := 720
