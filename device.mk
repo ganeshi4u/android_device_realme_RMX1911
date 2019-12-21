@@ -137,6 +137,8 @@ PRODUCT_PACKAGES += \
     init.class_main.sh \
     init.crda.sh \
     init.mdm.sh \
+    init.oppo.fingerprints.sh \
+    init.oppo.wifi.sh \
     init.qcom.class_core.sh \
     init.qcom.coex.sh \
     init.qcom.crashdata.sh \
@@ -155,6 +157,9 @@ PRODUCT_PACKAGES += \
     init.qti.qseecomd.sh \
     qca6234-service.sh \
     init.msm.usb.configfs.rc \
+    init.oppo.debug.diag.rc \
+    init.oppo.reserve.rc \
+    init.oppo.vendor.touchpress.rc \
     init.qcom.factory.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
